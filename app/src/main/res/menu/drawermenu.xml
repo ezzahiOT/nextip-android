@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/AddBroker"
+        android:title="Broker"
+        android:icon="@drawable/ic_cloud">
+    </item>
+    <item
+        android:id="@+id/AbouUS"
+        android:title="AboutUS"
+        android:icon="@drawable/ic_contact">
+    </item>
+    <item
+        android:id="@+id/ShareApp"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share">
+
+    </item>
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings">
+
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:title="Logout">
+
+    </item>
+
+</menu>

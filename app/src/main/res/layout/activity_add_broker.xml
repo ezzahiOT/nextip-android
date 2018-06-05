@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.engand.ezzahi.mycloud.addBroker">
+
+    <EditText
+        android:id="@+id/BrokerURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Broker URL"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/BrokerURL"
+        android:layout_alignStart="@+id/BrokerURL"
+        android:layout_below="@+id/BrokerURL"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Port(default 1883)"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Port"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/PASSWORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/UserName"
+        android:layout_alignStart="@+id/UserName"
+        android:layout_below="@+id/UserName"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/PASSWORD"
+        android:layout_alignRight="@+id/PASSWORD"
+        android:layout_below="@+id/PASSWORD"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Register"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</RelativeLayout>
